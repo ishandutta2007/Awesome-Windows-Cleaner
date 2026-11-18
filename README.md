@@ -1,265 +1,134 @@
-# Awesome-Windows-Cleaner
+# 🚀 Awesome Windows Cleaner & System Optimization
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Windows Cleaner Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Windows-Cleaner/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Windows-Cleaner?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Windows-Cleaner/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Windows-Cleaner?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Windows-Cleaner/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+---
+
+## 📌 Comprehensive Overview & SEO Highlights
+
+Welcome to the ultimate curated directory of **Windows Cleaner**, **PC Optimization**, **Disk Hygiene**, and **Windows 10/11 Debloating Tools**. Whether you are an IT administrator managing an enterprise fleet, a gamer tuning latency, a privacy advocate removing invasive telemetry, or a power user reclaiming gigabytes from bloated `WinSxS` stores, this ecosystem guide catalogs the leading **commercial SaaS solutions** and **battle-tested open-source GitHub repositories**.
+
+### 🔍 Key Capabilities Covered:
+- 🧹 **Junk & Cache Purging**: Purge temporary files, browser cache databases, error memory dumps, thumbnail stores, and obsolete update remnants.
+- 🚀 **Windows 10 & 11 Debloating**: Remove pre-installed UWP bloatware packages, disable background diagnostic tracking, and streamline the Windows Shell.
+- 📦 **Deep Application Uninstallation**: Completely eradicate stub installations, orphaned registries, and residual application clutter.
+- 🗄️ **Storage & Disk Tree Analyzers**: Visualize interactive directory treemaps, locate multi-gigabyte files, and eliminate duplicate files with hash algorithms.
+- 🛡️ **Privacy & Telemetry Hardening**: Block diagnostic telemetry beacons, disable consumer Cortana/Copilot background agents, and enhance endpoint security.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 Commercial & SaaS Platforms](#-commercial--saas-platforms)
+- [🌟 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📜 Disclaimer](#-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global PC system cleaner, disk optimization, and endpoint management software sector represents an estimated market size of approximately **$1.8B to $2.4B annually**, driven by enterprise fleet maintenance, remote-work hardware longevity requirements, and consumer demand for responsive gaming and creator setups. 
+
+The market dynamics exhibit a **moderately fragmented landscape** transitioning toward consolidation: established multi-billion dollar cybersecurity conglomerates (such as Gen Digital) maintain major market share with household consumer utilities, while an agile and rapidly growing ecosystem of independent developer utilities and open-source PowerShell/Rust projects dominates the enthusiast and power-user niches.
+
+---
+
+## 💼 Commercial & SaaS Platforms
+
+The table below catalogs premier commercial and SaaS utilities for Windows PC cleanup and tune-up, sorted in descending order by parent company scale (valuation / market capitalization / revenue).
+
+| Company Scale (Valuation / Revenue) 🏢 | Product Name 💻 | Core Capabilities 🛠️ | Pricing (Starting Tier) 💳 | Free Tier / Trial Limit 🎁 |
+| :--- | :--- | :--- | :--- | :--- |
+| **~$3.1B+ Market Cap / ~$3.8B Rev** *(Gen Digital Inc. / NASDAQ: GEN)* | **[CCleaner & CCleaner Cloud](https://ccleaner.com)** | Registry cleaning, temporary cache erasure, cloud-managed multi-endpoint hygiene | $29.95/year (CCleaner Professional 1 PC) | Free forever edition with manual junk cleaning & basic privacy protection (no auto-updates or cloud scheduling) |
+| **~$3.1B+ Market Cap / ~$3.8B Rev** *(Gen Digital Inc. / NASDAQ: GEN)* | **[Avast Cleanup](https://avast.com)** | Automated registry sweeps, bloatware uninstallation, background app hibernation | $29.99/year (1 PC for first year) | 30-day free trial (Full Pro feature access for 30 days, no credit card required upfront) |
+| **~$3.1B+ Market Cap / ~$3.8B Rev** *(Gen Digital Inc. / NASDAQ: GEN)* | **[AVG TuneUp](https://avg.com)** | Sleep Mode background resource limiter, broken shortcut scanner, browser cache purge | $29.99/year (1 PC for first year) | 30-day free trial with full disk cleaning and startup tuning capabilities |
+| **~$50M - $100M Est. Valuation / ~$30M+ Rev** *(IObit Software)* | **[IObit Advanced SystemCare](https://iobit.com)** | AI-driven system health check, startup acceleration, browser anti-tracking | $19.99/year (1 PC, 1-year subscription) | Free forever edition with basic system cleaning and spyware protection (excludes deep registry and AI tuning) |
+| **~$20M - $50M Est. Valuation** *(iolo technologies / RealDefense)* | **[System Mechanic](https://iolo.com)** | Real-time RAM decluttering, drive defragmentation, automated PC health sweeps | $39.95/year (System Mechanic Standard) | Free trial edition available for 30 days with automated repair diagnostics |
+| **~$15M - $30M Est. Valuation** *(Ashampoo GmbH & Co. KG)* | **[Ashampoo WinOptimizer](https://ashampoo.com)** | SSD optimization, privacy telemetry disabling, duplicate hunter, junk purger | $30.00 one-time lifetime license (WinOptimizer 27) | Free forever edition (WinOptimizer Free with core junk cleaning and trace erasure) |
+| **~$10M - $25M Est. Valuation** *(Glarysoft Ltd)* | **[Glary Utilities](https://glarysoft.com)** | 1-Click system maintenance, context-menu manager, registry repair, disk analyzer | $39.95/year (Glary Utilities Pro 3 PCs) | Free forever edition for non-commercial personal use with core 1-click clean |
+| **~$5M - $15M Est. Valuation** *(WiseCleaner / Lespeed Tech)* | **[Wise Disk Cleaner](https://wisecleaner.com)** | Advanced multi-browser cache deletion, WinSxS slimming, Windows update residue wipe | $19.95/year (1 PC license) | Free forever edition including full junk file cleaner, system slim-down, and disk defrag |
+| **Privately Held / Niche Indie Commercial** *(Cheetah Mobile Legacy / PC Distribution)* | **[Clean Master for PC](https://cleanmasterofficial.com)** | Instant junk removal, driver booster integration, residual cache shredder | $29.90/year (Clean Master PC Pro) | Free basic version with standard junk scan and manual junk cleaning |
+
+---
+
+## 🌟 Open-Source GitHub Projects
+
+Below is the verified ecosystem of open-source Windows cleaners, debloaters, disk usage analyzers, and privacy tools. Each entry includes an official GitHub star badge linking directly to the project's stargazers page, sorted in **descending order by star count**.
+
+| Rank 🏆 | Project & Repository 💻 | GitHub Stars ⭐ | Description 📝 |
+| :---: | :--- | :---: | :--- |
+| 1 | **[Microsoft PowerToys](https://github.com/microsoft/PowerToys)** | [![GitHub Stars](https://img.shields.io/github/stars/microsoft/PowerToys?style=social&color=white)](https://github.com/microsoft/PowerToys/stargazers) | Microsoft's official system utilities suite featuring File Locksmith, Registry Preview, Awake, and bulk file management tools. |
+| 2 | **[Chris Titus Tech WinUtil](https://github.com/ChrisTitusTech/winutil)** | [![GitHub Stars](https://img.shields.io/github/stars/ChrisTitusTech/winutil?style=social&color=white)](https://github.com/ChrisTitusTech/winutil/stargazers) | Comprehensive Windows utility for automated debloating, temporary file purges, registry performance tweaks, and Winget packaging. |
+| 3 | **[Win11Debloat](https://github.com/Raphire/Win11Debloat)** | [![GitHub Stars](https://img.shields.io/github/stars/Raphire/Win11Debloat?style=social&color=white)](https://github.com/Raphire/Win11Debloat/stargazers) | Lightweight, customizable PowerShell script to remove pre-installed bloatware, disable telemetry, and declutter Windows 10/11. |
+| 4 | **[Rclone](https://github.com/rclone/rclone)** | [![GitHub Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) | Powerful command-line storage utility featuring `dedupe` and `cleanup` operations for local disks and multi-cloud drives. |
+| 5 | **[ShareX](https://github.com/ShareX/ShareX)** | [![GitHub Stars](https://img.shields.io/github/stars/ShareX/ShareX?style=social&color=white)](https://github.com/ShareX/ShareX/stargazers) | Highly rated open-source desktop productivity suite equipped with image compression, hash checking, and file tools. |
+| 6 | **[Czkawka](https://github.com/qarmin/czkawka)** | [![GitHub Stars](https://img.shields.io/github/stars/qarmin/czkawka?style=social&color=white)](https://github.com/qarmin/czkawka/stargazers) | Blazingly fast multi-threaded system cleaner written in Rust to find duplicates, empty directories, large files, and broken links. |
+| 7 | **[UniGetUI (WingetUI)](https://github.com/Devolutions/UniGetUI)** | [![GitHub Stars](https://img.shields.io/github/stars/Devolutions/UniGetUI?style=social&color=white)](https://github.com/Devolutions/UniGetUI/stargazers) | Intuitive graphical frontend for Winget, Scoop, and Chocolatey for managing, updating, and cleanly uninstalling Windows applications. |
+| 8 | **[Bulk Crap Uninstaller (BCU)](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller)** | [![GitHub Stars](https://img.shields.io/github/stars/BCUninstaller/Bulk-Crap-Uninstaller?style=social&color=white)](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/stargazers) | High-volume open-source uninstaller that cleans orphaned files, uninstalls protected Windows apps, and wipes leftovers. |
+| 9 | **[AtlasOS](https://github.com/Atlas-OS/Atlas)** | [![GitHub Stars](https://img.shields.io/github/stars/Atlas-OS/Atlas?style=social&color=white)](https://github.com/Atlas-OS/Atlas/stargazers) | Open-source Windows modification focused on minimizing latency, removing tracking, stripping bloatware, and maximizing frame rates. |
+| 10 | **[Dism++](https://github.com/Chuyu-Team/Dism-Multi-language)** | [![GitHub Stars](https://img.shields.io/github/stars/Chuyu-Team/Dism-Multi-language?style=social&color=white)](https://github.com/Chuyu-Team/Dism-Multi-language/stargazers) | Community-favorite GUI frontend for Microsoft DISM capable of deep WinSxS store cleanup, OS compression, and driver hygiene. |
+| 11 | **[Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)** | [![GitHub Stars](https://img.shields.io/github/stars/Sycnex/Windows10Debloater?style=social&color=white)](https://github.com/Sycnex/Windows10Debloater/stargazers) | Iconic PowerShell script to debloat Windows installations, disable diagnostic telemetry, and remove default bloatware apps. |
+| 12 | **[Optimizer](https://github.com/hellzerg/optimizer)** | [![GitHub Stars](https://img.shields.io/github/stars/hellzerg/optimizer?style=social&color=white)](https://github.com/hellzerg/optimizer/stargazers) | Advanced multi-language configuration and cleaning utility to disable unneeded services, flush temp drives, and enhance privacy. |
+| 13 | **[System Informer](https://github.com/winsiderss/systeminformer)** | [![GitHub Stars](https://img.shields.io/github/stars/winsiderss/systeminformer?style=social&color=white)](https://github.com/winsiderss/systeminformer/stargazers) | Open-source system monitoring and memory diagnostic utility for managing heavy background services and hunting resource leaks. |
+| 14 | **[NanaZip](https://github.com/M2Team/NanaZip)** | [![GitHub Stars](https://img.shields.io/github/stars/M2Team/NanaZip?style=social&color=white)](https://github.com/M2Team/NanaZip/stargazers) | Modern 7-Zip fork built for Windows 11 with context-menu integration, high-compression archives, and file hygiene tools. |
+| 15 | **[Dust](https://github.com/bootandy/dust)** | [![GitHub Stars](https://img.shields.io/github/stars/bootandy/dust?style=social&color=white)](https://github.com/bootandy/dust/stargazers) | High-speed Rust-based disk analyzer providing terminal-based graphical breakdown of directory consumption. |
+| 16 | **[Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows)** | [![GitHub Stars](https://img.shields.io/github/stars/farag2/Sophia-Script-for-Windows?style=social&color=white)](https://github.com/farag2/Sophia-Script-for-Windows/stargazers) | Powerful PowerShell module for fine-tuning Windows 10/11, scheduling disk cleanups, and decluttering modern installations. |
+| 17 | **[CompactGUI](https://github.com/IridiumIO/CompactGUI)** | [![GitHub Stars](https://img.shields.io/github/stars/IridiumIO/CompactGUI?style=social&color=white)](https://github.com/IridiumIO/CompactGUI/stargazers) | Graphical tool utilizing Windows native CompactOS compression algorithms to shrink games and programs without performance loss. |
+| 18 | **[DupeGuru](https://github.com/arsenetar/dupeguru)** | [![GitHub Stars](https://img.shields.io/github/stars/arsenetar/dupeguru?style=social&color=white)](https://github.com/arsenetar/dupeguru/stargazers) | Open-source duplicate file finder matching file contents, filenames, and audio/picture tags using fuzzy comparison. |
+| 19 | **[BleachBit](https://github.com/bleachbit/bleachbit)** | [![GitHub Stars](https://img.shields.io/github/stars/bleachbit/bleachbit?style=social&color=white)](https://github.com/bleachbit/bleachbit/stargazers) | Industry-standard open-source system cleaner and privacy eraser with full support for Winapp2.ini custom cleaning rules. |
+| 20 | **[Gdu (Go Disk Usage)](https://github.com/dundee/gdu)** | [![GitHub Stars](https://img.shields.io/github/stars/dundee/gdu?style=social&color=white)](https://github.com/dundee/gdu/stargazers) | Ultra-fast console disk usage analyzer written in Go, specifically optimized for SSD throughput and interactive deletion. |
+| 21 | **[Privacy.sexy](https://github.com/undergroundwires/privacy.sexy)** | [![GitHub Stars](https://img.shields.io/github/stars/undergroundwires/privacy.sexy?style=social&color=white)](https://github.com/undergroundwires/privacy.sexy/stargazers) | Security hardening and OS debloating generator creating transparent and reversible cleaning scripts for Windows. |
+| 22 | **[Bloatynosy](https://github.com/builtbybel/Bloatynosy)** | [![GitHub Stars](https://img.shields.io/github/stars/builtbybel/Bloatynosy?style=social&color=white)](https://github.com/builtbybel/Bloatynosy/stargazers) | Streamlined Windows 11 debloater and component cleaner designed to strip unwanted bloat and unnecessary background tasks. |
+| 23 | **[ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)** | [![GitHub Stars](https://img.shields.io/github/stars/builtbybel/ThisIsWin11?style=social&color=white)](https://github.com/builtbybel/ThisIsWin11/stargazers) | The classic PowerToys companion for Windows 11 system customization, package uninstallation, and disk optimization. |
+| 24 | **[Win10 Initial Setup Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script)** | [![GitHub Stars](https://img.shields.io/github/stars/Disassembler0/Win10-Initial-Setup-Script?style=social&color=white)](https://github.com/Disassembler0/Win10-Initial-Setup-Script/stargazers) | Modular PowerShell script for automating post-installation debloating, telemetry removal, and disk cleaning. |
+| 25 | **[WinDirStat](https://github.com/windirstat/windirstat)** | [![GitHub Stars](https://img.shields.io/github/stars/windirstat/windirstat?style=social&color=white)](https://github.com/windirstat/windirstat/stargazers) | Legendary disk usage statistics viewer and cleanup tool with color-coded treemaps to spot space hogs immediately. |
+| 26 | **[fclones](https://github.com/pkolaczk/fclones)** | [![GitHub Stars](https://img.shields.io/github/stars/pkolaczk/fclones?style=social&color=white)](https://github.com/pkolaczk/fclones/stargazers) | High-performance CLI duplicate file identifier written in Rust, capable of quickly handling millions of files. |
+| 27 | **[rmlint](https://github.com/sahib/rmlint)** | [![GitHub Stars](https://img.shields.io/github/stars/sahib/rmlint?style=social&color=white)](https://github.com/sahib/rmlint/stargazers) | Fast file system lint remover for tracking down duplicated files, zero-byte artifacts, and broken directory links. |
+| 28 | **[Winapp2.ini](https://github.com/MoscaDotTo/Winapp2)** | [![GitHub Stars](https://img.shields.io/github/stars/MoscaDotTo/Winapp2?style=social&color=white)](https://github.com/MoscaDotTo/Winapp2/stargazers) | Community-driven cleaning definitions file containing over 3,000+ app cleaning routines for BleachBit and CCleaner. |
+| 29 | **[Cleanmgr+](https://github.com/builtbybel/CleanmgrPlus)** | [![GitHub Stars](https://img.shields.io/github/stars/builtbybel/CleanmgrPlus?style=social&color=white)](https://github.com/builtbybel/CleanmgrPlus/stargazers) | Enhanced modern replacement for the built-in Microsoft Disk Cleanup (`cleanmgr.exe`) with support for third-party cache removal. |
+| 30 | **[TidyOS](https://github.com/builtbybel/TidyOS)** | [![GitHub Stars](https://img.shields.io/github/stars/builtbybel/TidyOS?style=social&color=white)](https://github.com/builtbybel/TidyOS/stargazers) | Minimalist open-source utility for purging unnecessary system temporary files and configuring baseline Windows settings. |
 
-## Top Windows Cleaner & System Optimization Ecosystem
+---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Windows-Cleaner&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Windows-Cleaner&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Windows-Cleaner&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Windows-Cleaner&type=date&legend=top-left)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on Junk File Removal, Debloating, Disk Space Analysis, Uninstallation & Privacy Cleaning*  
+## 🤝 How to Contribute
 
-**Last updated: November 2026**
+Contributions are wholeheartedly welcome! To add or update an entry:
+1. 🍴 Fork this repository.
+2. 🌿 Create a descriptive branch: `git checkout -b add-cleaner-entry`.
+3. ✍️ Add factual information, clear descriptions, pricing/free-tier specifics, or official GitHub links.
+4. 🚀 Open a Pull Request for review!
 
+---
 
+## 💖 Support
 
-This repository (`Awesome-Windows-Cleaner`) tracks notable **SaaS/Commercial platforms** and **open-source projects** for **Windows Cleaner & System Optimization** — Top Windows Cleaner (Opensource) 🌟 Star if you like it! 🌟. These tools reclaim disk space, purge temporary system caches, remove pre-installed Windows bloatware, cleanly uninstall leftover registry/folder artifacts, and protect browser and OS privacy.
+If you find this repository helpful for maintaining your Windows systems, please consider:
+- ⭐ Starring this repository on GitHub to help others discover it!
+- 🍴 Forking and sharing with fellow sysadmins, developers, and PC builders!
+- ☕ Supporting continuous maintenance and curation via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**. Thank you for your support!
 
+---
 
+## 📜 Disclaimer
 
-**Examples** include CCleaner, BleachBit, IObit Advanced SystemCare, Glary Utilities, Wise Disk Cleaner, Ashampoo WinOptimizer, AVG TuneUp, Avast Cleanup, Clean Master, and System Mechanic (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for transparent disk cleanup, Windows 10/11 debloating, deep app uninstallation, duplicate file finding, and WinSxS component store reduction — ideal for power users, sysadmins, privacy advocates, and PC builders.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[CCleaner & CCleaner Cloud](https://ccleaner.com)**  
-
-  Well-known system cleaning and PC optimization suite offering cloud-managed endpoint cleanup, browser cache removal, and startup management.
-
-
-
-- **[IObit Advanced SystemCare](https://iobit.com)**  
-
-  All-in-one commercial Windows optimization and AI-assisted cleanup utility for junk file removal, startup speedup, and privacy sweeps.
-
-
-
-- **[Glary Utilities](https://glarysoft.com)**  
-
-  Commercial Windows maintenance toolkit bundling 1-click disk cleanup, registry repair, duplicate file finder, and context-menu management.
-
-
-
-- **[Wise Disk Cleaner](https://wisecleaner.com)**  
-
-  Fast proprietary Windows disk cleaner and defragmenter that removes browser histories, temporary files, and obsolete Windows installer caches.
-
-
-
-- **[Ashampoo WinOptimizer](https://ashampoo.com)**  
-
-  Commercial Windows system maintenance and tweaking suite featuring automated trace cleaning, SSD optimization, and privacy telemetry controls.
-
-
-
-- **[AVG TuneUp](https://avg.com)**  
-
-  Subscription-based PC optimization software featuring Sleep Mode for background apps, automatic disk maintenance, and bloatware removal.
-
-
-
-- **[Avast Cleanup](https://avast.com)**  
-
-  Commercial system cleaner and performance tuner designed to purge residual installer files, broken shortcuts, and browser bloat.
-
-
-
-- **[System Mechanic (iolo)](https://iolo.com)**  
-
-  Real-time PC optimization and cleanup platform offering automated system maintenance, RAM release, and network settings tuning.
-
-
-
-- **[Clean Master for PC](https://cleanmasterofficial.com)**  
-
-  Commercial junk file cleaner and privacy eraser built to clear system caches, media player histories, and third-party app leftovers.
-
-
-
-- **[Microsoft PC Manager](https://microsoft.com)**  
-
-  Official freeware utility from Microsoft providing one-click memory boost, temporary file cleanup, storage sense integration, and popup management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[BleachBit](https://github.com)**  
-
-  The gold-standard open-source system cleaner and privacy utility for Windows and Linux that frees disk space, shreds files, and wipes traces across thousands of applications via Winapp2.ini.
-
-
-
-- **[Bulk Crap Uninstaller (BCUninstaller)](https://github.com)**  
-
-  Powerful open-source bulk program uninstaller that detects orphaned applications, runs unattended uninstallers, and purges leftover registry keys and folders.
-
-
-
-- **[Win11Debloat](https://github.com)**  
-
-  Lightweight, open-source PowerShell script to remove pre-installed bloatware apps, disable telemetry, declutter File Explorer, and optimize Windows 10 and 11.
-
-
-
-- **[Christitus Tech WinUtil](https://github.com)**  
-
-  Comprehensive open-source Windows utility for automated debloating, temporary file cleanup, system tweaks, and Winget package management.
-
-
-
-- **[Privacy.sexy](https://github.com)**  
-
-  Open-source privacy and security hardening tool generating auditable, reversible cleanup and debloating scripts for Windows, macOS, and Linux.
-
-
-
-- **[Czkawka](https://github.com)**  
-
-  Blazingly fast, multi-threaded open-source cleaner written in Rust for finding duplicate files, empty folders, big files, similar images, and broken symlinks.
-
-
-
-- **[Krokiet](https://github.com)**  
-
-  Modern Slint-based open-source GUI frontend for Czkawka offering hardware-accelerated duplicate cleanup and disk hygiene on Windows.
-
-
-
-- **[WizTree / TreeSize Alternatives — Dust](https://github.com)**  
-
-  Intuitive open-source disk usage analyzer written in Rust that provides an instant visual overview of which directories are consuming storage.
-
-
-
-- **[Gdu (Go Disk Usage)](https://github.com)**  
-
-  Fast console-based open-source disk usage analyzer built in Go with interactive directory deletion optimized for SSDs.
-
-
-
-- **[NanaZip / WinDirStat (Open-Source Disk Analyzer)](https://github.com)**  
-
-  Classic open-source disk usage statistics viewer and cleanup tool for Windows visualizing file types via interactive treemaps.
-
-
-
-- **[Dism++](https://github.com)**  
-
-  Open-source GUI frontend for Microsoft DISM capable of deep WinSxS component store cleanup, compact OS compression, and update cache purging.
-
-
-
-- **[System Informer (formerly Process Hacker)](https://github.com)**  
-
-  Free and open-source system monitor, memory cleaner, and diagnostic tool for inspecting resource-hogging processes, services, and handles.
-
-
-
-- **[Optimizer](https://github.com)**  
-
-  Advanced open-source Windows configuration and cleaning utility for disabling unnecessary services, clearing temp directories, and fixing registry issues.
-
-
-
-- **[Sophia Script for Windows](https://github.com)**  
-
-  Extensive open-source PowerShell module for fine-tuning Windows 10/11, scheduling automatic cleanup tasks, and removing UWP bloatware cleanly.
-
-
-
-- **[Bloatynosy](https://github.com)**  
-
-  Open-source all-in-one debloater and system cleaner tailored specifically for streamlining Windows 11 installations and removing unwanted components.
-
-
-
-- **[TidyOS](https://github.com)**  
-
-  Compact open-source Windows cleaning and decluttering assistant built to purge system junk, disable background bloat, and reclaim storage.
-
-
-
-- **[NVCleanstall](https://github.com)**  
-
-  Lightweight open-source utility (and driver cleanup companion) for stripping telemetry, bloatware, and unused packages from NVIDIA GeForce driver installers.
-
-
-
-- **[Display Driver Uninstaller (DDU)](https://github.com)**  
-
-  Industry-standard open-source driver removal utility that completely cleans AMD, NVIDIA, and Intel GPU drivers, registry keys, and shader caches.
-
-
-
-- **[Autoruns / Startup Manager — SharpApp](https://github.com)**  
-
-  Open-source Windows privacy and cleanup tool using community-driven PowerShell templates to eliminate telemetry and residual system clutter.
-
-
-
-- **[Snappy Driver Installer Origin (SDIO)](https://github.com)**  
-
-  Portable open-source Windows driver updater and old-driver cache cleaner without adware or bundled bloat.
-
-
-
-- **[LosslessCut / Media Duplicate Cleaner — DupeGuru](https://github.com)**  
-
-  Cross-platform open-source GUI tool for finding and deleting duplicate files, music tracks, and photos across Windows drives using fuzzy matching.
-
-
-
-- **[FSlint / Fclones](https://github.com)**  
-
-  High-efficiency open-source command-line duplicate file finder and cleaner written in Rust for reclaiming gigabytes of redundant storage.
-
-
-
-- **[Rclone](https://github.com)**  
-
-  Open-source command-line storage manager with `dedupe` and `cleanup` commands for purging duplicate files and trashed items across local and cloud drives.
-
-
-
-- **[CloneSpy / RMlint](https://github.com)**  
-
-  Extremely fast open-source utility for identifying duplicate files, empty directories, and non-stripped binaries to maximize disk efficiency.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Winapp2.ini](https://github.com)** community-maintained open-source database of over 3,000 application cleaning rules compatible with BleachBit and System Ninja.
-
-- **[WingetUI / UniGetUI](https://github.com)** open-source GUI package manager for cleanly installing, updating, and uninstalling Windows software without leftover installers.
-
-- **[ShareX](https://github.com)** and **[PowerToys](https://github.com)** official open-source Windows productivity suites featuring File Locksmith and Image Resizer utilities.
-
-- **[CompactGUI](https://github.com)** open-source visual wrapper for Windows `compact.exe` that transparently compresses games and programs to save gigabytes without performance loss.
+*The software listed in this curated repository is provided for informational and educational purposes. Always exercise caution and create a System Restore point or complete drive backup prior to running deep registry cleaners, component slimming scripts, or uninstallation tools.*
