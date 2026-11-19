@@ -66,7 +66,7 @@ The table below catalogs premier commercial and SaaS utilities for Windows PC cl
 
 ## 🌟 Open-Source GitHub Projects
 
-Below is the verified ecosystem of open-source Windows cleaners, debloaters, disk usage analyzers, and privacy tools. Each entry includes an official GitHub Stars_Badge linking directly to the project's stargazers page, sorted in **descending order by Stars_Count**.
+Below is the verified ecosystem of open-source Windows cleaners, debloaters, disk usage analyzers, and privacy tools. Each entry includes an official GitHub_Stars_Badge linking directly to the project's stargazers page, sorted in **descending order by Stars_Count**.
 
 | Rank 🏆 | Project & Repository 💻 | GitHub_Stars ⭐ | Description 📝 |
 | :---: | :--- | :---: | :--- |
